@@ -4,6 +4,12 @@
 *.o
 *.obj
 
+# Visual Studio build files
+*.lastbuildstate
+*.log
+*.tlog
+*.pdb
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -26,3 +32,12 @@
 *.exe
 *.out
 *.app
+rawdev.opensdf
+rawdev.sdf
+rawdev/rawdev.vcxproj.filters
+rawdev/rawdev.vcxproj.user
+rawdev.v11.suo
+
+# Allow solution release build to be distribued
+!x64/Release/rawdev.exe
+x64/Release/rawdev.pdb
