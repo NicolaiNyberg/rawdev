@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rawdev", "rawdev\rawdev.vcxproj", "{CCF407F6-5859-4D54-A600-4DD45C1E4376}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rawdev.vs2012", "rawdev\rawdev.vs2012.vcxproj", "{CCF407F6-5859-4D54-A600-4DD45C1E4376}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

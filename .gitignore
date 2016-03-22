@@ -41,3 +41,6 @@ rawdev.v11.suo
 # Allow solution release build to be distribued
 !x64/Release/rawdev.exe
 x64/Release/rawdev.pdb
+*.idb
+*.sdf
+*.opensdf
