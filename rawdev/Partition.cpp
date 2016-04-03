@@ -31,7 +31,7 @@
 #include "Partition.h"
 #include "Finders.h"
 
-HRESULT Partition::open(bool isRead, DWORD desiredAccess, DWORD devFlags, HANDLE & h) const
+HRESULT Partition::Open(bool isRead, DWORD desiredAccess, DWORD devFlags, HANDLE & h) const
 {
 	auto d = FindDrive(disk);
 	if (!d) return ERROR_FILE_NOT_FOUND;

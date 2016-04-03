@@ -197,7 +197,7 @@ HRESULT OpenDiskOrVolumeOrFile(HANDLE & h, LPWSTR name, bool isRead, UINT64 * ps
 	auto p = FindPartition(name);
 	if (p)
 	{
-		auto hr = p->open(isRead, desiredAccess, devFlags, h);
+		auto hr = p->Open(isRead, desiredAccess, devFlags, h);
 		if (hr) return hr;
 		if (psize) *psize = p->size;
 		return 0;

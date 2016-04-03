@@ -56,7 +56,7 @@ struct Partition
 	{
 		if (name) delete name;
 	}
-	HRESULT open(bool isRead, DWORD desiredAccess, DWORD devFlags, HANDLE & h) const;
+	HRESULT Open(bool isRead, DWORD desiredAccess, DWORD devFlags, HANDLE & h) const;
 };
 typedef list<shared_ptr<Partition>> PartitionList;
 
